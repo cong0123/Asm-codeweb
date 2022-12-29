@@ -12,7 +12,6 @@ using System.Threading.Tasks;
 
 namespace Bok.Controllers
 {
-    [Authorize]
     public class OrdersController : Controller
     {
         private readonly IBooksService _booksService;

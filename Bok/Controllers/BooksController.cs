@@ -15,7 +15,6 @@ using System.Threading.Tasks;
 
 namespace Bok.Controllers
 {
-    [Authorize(Roles = UserRoles.Admin)]
     public class BooksController : Controller
     {
         private readonly IBooksService _service;

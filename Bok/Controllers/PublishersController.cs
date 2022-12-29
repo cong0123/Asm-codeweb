@@ -12,7 +12,6 @@ using System.Threading.Tasks;
 
 namespace Bok.Controllers
 {
-    [Authorize(Roles = UserRoles.Admin)]
     public class PublishersController : Controller
     {
         private readonly IPublishersService _service;
